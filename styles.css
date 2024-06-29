@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.business-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #4CAF50;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-left: 10;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h2 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.card-body p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.card-footer {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.social-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    color: #388E3C;
+}
